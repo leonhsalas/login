@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'Atwic-Bold';
+    src: local('Atwic-Bold'), url('fonts/AtwicBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Atwic-Medium';
+    src: local('Atwic-Medium'), url('fonts/AtwicMedium.otf') format('opentype');
+}
+
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,0,255,1) 23%, rgba(255,0,255,1) 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: white;
+    height: 85vh;
+    width: 30%;
+    border-radius: 15px;
+}
+
+#minicontainer1{
+    display: flex;
+    justify-content: center;
+}
+
+#h1{
+    font-family: Atwic-Bold;
+    margin-top: 50px;
+}
+
+#minicontainer3{
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    background: linear-gradient(135deg, rgba(0,0,255,1) 23%, rgba(255,0,255,1) 100%);
+    border-radius: 25px;
+    width: 80%;
+    height: 45px;
+    color: white; 
+}
+
+#minicontainer4{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#h3{
+    font-family: 'Atwic-Medium';
+    font-weight: 300;
+    font-size: small;
+}
+
+#smallcontainer2{
+    display: flex;
+}
+
+.redes{
+    width: 12%;
+    height: fit-content;
+    margin: 0px 5px;
+}
+
+#minicontainer5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#minicontainer6{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+#minicontainer7{
+    display: flex;
+    justify-content: center;
+}
+
+#h32{
+    font-family: 'Atwic-Medium';
+    margin-right: 45px;
+    font-size: small;
+    font-weight: 300;
+}
+
+#minicontainer25{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#h233{
+    font-family: 'Atwic-Medium';
+    font-size: small;
+    font-weight: 300;
+}
+
+#h233333{
+    margin-left: 45px;
+}
+
+#xsmallcontainer{
+    display: flex;
+}
+
+#xsmallcontainer2{
+    display: flex;
+}
+
+
+#image1{
+    width: 20px;
+}
+
+#image2{
+    width: 20px;
+}
+
+#input1{
+    margin-left: 20px;
+    width: 70%;
+}
